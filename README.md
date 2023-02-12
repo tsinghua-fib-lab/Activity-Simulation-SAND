@@ -19,7 +19,7 @@ The code is tested under a Linux desktop with torch 1.7 and Python 3.7.10.
 1.Use the following command to train SAND on the `Foursquare` dataset: 
 
 ``
-cd SAND
+cd SAND;
 ``
 
 ``
@@ -32,7 +32,7 @@ The trained models are saved in ``model/TIME/``.
 2.Use the following command to generate activity data on the `Foursquare` dataset: 
 
 ``
-cd SAND
+cd SAND;
 ``
 
 ``
