@@ -16,7 +16,7 @@ The code is tested under a Linux desktop with torch 1.7 and Python 3.7.10.
 
 ## Model Training
 
-Use the following command to train DSTPP on `Foursquare` dataset: 
+Use the following command to train SAND on the `Foursquare` dataset: 
 
 ``
 cd SAND
@@ -28,7 +28,7 @@ python app.py --dataset 'Foursquare' --mode 'train'
 The trained models are saved in ``model/TIME/``.
 
 
-Use the following command to train DSTPP on `Foursquare` dataset: 
+Use the following command to generate activity data on the `Foursquare` dataset: 
 
 ``
 cd SAND
