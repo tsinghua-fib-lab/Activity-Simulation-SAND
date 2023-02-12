@@ -19,7 +19,7 @@ The code is tested under a Linux desktop with torch 1.7 and Python 3.7.10.
 
 ## Model Training
 
-1.Use the following command to train SAND on the `Foursquare` dataset: 
+Use the following command to train SAND on the `Foursquare` dataset: 
 
 ``
 cd SAND;
@@ -28,11 +28,25 @@ cd SAND;
 ``
 python app.py --dataset 'Foursquare' --mode 'train'
 ``
+
+or on the Mobile Operator dataset:
+
+``
+python app.py --dataset 'Mobile' --mode 'train'
+``
+
+or on the Synthetic Operator dataset:
+
+``
+python app.py --dataset 'Synthetic' --mode 'train'
+``
+
 The trained models are saved in ``model/TIME/``.
 
 
+## Simulation
 
-2.Use the following command to generate activity data on the `Foursquare` dataset: 
+Use the following command to generate activity data on the `Foursquare` dataset: 
 
 ``
 cd SAND;
