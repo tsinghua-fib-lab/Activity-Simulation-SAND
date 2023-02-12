@@ -1,4 +1,7 @@
 # SAND
+
+![][asset/framework.pdf]
+
 The official PyTorch implementation of "Learning to Simulate Daily Activities via Modeling Dynamic Human Needs" (WWW'23).
 
 The code is tested under a Linux desktop with torch 1.7 and Python 3.7.10.
