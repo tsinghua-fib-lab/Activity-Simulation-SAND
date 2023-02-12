@@ -16,7 +16,7 @@ The code is tested under a Linux desktop with torch 1.7 and Python 3.7.10.
 
 ## Model Training
 
-Use the following command to train SAND on the `Foursquare` dataset: 
+1. Use the following command to train SAND on the `Foursquare` dataset: 
 
 ``
 cd SAND
@@ -28,7 +28,8 @@ python app.py --dataset 'Foursquare' --mode 'train'
 The trained models are saved in ``model/TIME/``.
 
 
-Use the following command to generate activity data on the `Foursquare` dataset: 
+
+2. Use the following command to generate activity data on the `Foursquare` dataset: 
 
 ``
 cd SAND
@@ -37,6 +38,7 @@ cd SAND
 ``
 python app.py --dataset 'Foursquare' --mode 'generate' --generate_final_path your_path
 ``
+
 Please specify your own path by the command-line argument ``generate_final_path``  for saving the generated data. Then the generated activity data will be in ``your_path/gen_data.json``.
 
 ## Note
