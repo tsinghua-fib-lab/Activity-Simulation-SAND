@@ -64,6 +64,7 @@ The implemention is based on *[NJSDE](https://github.com/000Justin000/torchdiffe
 
 If you found this library useful in your research, please consider citing:
 
+```
 @inproceedings{yuan2023learning,
   title={Learning to Simulate Daily Activities via Modeling Dynamic Human Needs},
   author={Yuan, Yuan and Wang, Huandong and Ding, Jingtao and Jin, Depeng and Li, Yong},
@@ -71,3 +72,4 @@ If you found this library useful in your research, please consider citing:
   pages={906--916},
   year={2023}
 }
+```
