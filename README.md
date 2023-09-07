@@ -60,7 +60,7 @@ Please specify your own path by the command-line argument ``generate_final_path`
 
 ## More Related Works
 
-*[Learning to Simulate Daily Activities via Modeling Dynamic Human Needs](https://github.com/tsinghua-fib-lab/Activity-Trajectory-Generation)* 
+- [Learning to Simulate Daily Activities via Modeling Dynamic Human Needs](https://github.com/tsinghua-fib-lab/Activity-Trajectory-Generation) 
 
 ## Note
 
