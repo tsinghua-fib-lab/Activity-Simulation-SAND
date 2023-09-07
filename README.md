@@ -58,6 +58,10 @@ python app.py --dataset 'Foursquare' --mode 'generate' --generate_final_path you
 
 Please specify your own path by the command-line argument ``generate_final_path``  for saving the generated data. Then the generated activity data will be in ``your_path/gen_data.json``.
 
+## More Related Works
+
+*[Learning to Simulate Daily Activities via Modeling Dynamic Human Needs](https://github.com/tsinghua-fib-lab/Activity-Trajectory-Generation)* 
+
 ## Note
 
 The implemention is based on *[NJSDE](https://github.com/000Justin000/torchdiffeq/tree/jj585)*.
