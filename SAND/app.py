@@ -145,9 +145,8 @@ if __name__ == '__main__':
         all_file = json.load(f)
         random.shuffle(all_file)
 
-    all_file = [[[i[0],config.P2id[i[1]]] for i in u if i[0]<=config.traj_length] for u in all_file][:100]
+    all_file = [[[i[0],config.P2id[i[1]]] for i in u if i[0]<=config.traj_length] for u in all_file]
     all_file = [[[np.round(i[0]/args.shrink,args.decimals),i[1]] for i in u] for u in all_file]
-    # need decimals?
 
     config.time_grid = [i/args.shrink for i in config.time_grid]
     config.traj_length /= args.shrink
